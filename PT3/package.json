@@ -1,0 +1,26 @@
+{
+  "name": "pt3",
+  "version": "1.0.0",
+  "description": "Ejercicio 3",
+  "main": "./src/main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./build/main.js",
+    "build": "tsc",
+    "dev": "tsc -watch"
+  },
+  "keywords": [
+    "ts"
+  ],
+  "author": "Sergi Rodriguez Utge",
+  "license": "MIT",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "readline-sync": "^1.4.10",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "@types/readline-sync": "^1.4.8"
+  }
+}
